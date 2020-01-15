@@ -45,7 +45,10 @@ ROOMS = [
         display_name='Econ 101 class',
         participant_label_file='_rooms/econ101.txt',
     ),
-    dict(name='live_demo', display_name='Room for live demo (no participant labels)'),
+    dict(
+        name='live_demo',
+        display_name='Room for live demo (no participant labels)'
+    ),
 ]
 
 ADMIN_USERNAME = 'admin'
@@ -57,7 +60,7 @@ Here are some oTree games.
 """
 
 # don't share this with anybody.
-SECRET_KEY = '{{ secret_key }}'
+SECRET_KEY = '*4ww)l4q!j6mlf6)haoxp_mtoev3)ru+sjwdewlh3v02i9r#zq'
 
 INSTALLED_APPS = ['otree']
 
